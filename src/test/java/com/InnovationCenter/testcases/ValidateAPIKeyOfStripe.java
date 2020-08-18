@@ -21,7 +21,7 @@ public class ValidateAPIKeyOfStripe extends BaseTest {
 	@Test(dataProviderClass=CommonDataProvider.class, dataProvider="data")
 	public void validateCreateCustomerwithValidAuthKey(Hashtable<String, String> data) {
 		
-					
+		// just to check for git			
 		/*RestAssured.baseURI="https://api.stripe.com";
 		RestAssured.basePath="/v1";*/
 		
