@@ -7,7 +7,7 @@ public class Rough {
 
 	public static void main(String[] args) throws UnknownHostException {
 		
-		System.out.println("http://"+InetAddress.getLocalHost().getHostAddress()+"D:\\RestAssuredAPI\\RestAssuredAPIFramework\\reports\\");
+		System.out.println("http://"+InetAddress.getLocalHost().getHostAddress()+"\\D:\\RestAssuredAPI\\RestAssuredAPIFramework\\reports\\");
 		
 	}
 
