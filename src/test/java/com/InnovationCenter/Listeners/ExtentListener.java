@@ -1,5 +1,7 @@
 package com.InnovationCenter.Listeners;
 
+import java.net.InetAddress;
+import java.net.UnknownHostException;
 import java.util.Arrays;
 import java.util.Date;
 
@@ -102,6 +104,13 @@ public class ExtentListener  implements ITestListener , ISuiteListener{
 	}
 
 	public void onFinish(ISuite suite) {
+		
+		try {
+			MessageBody="http://"+InetAddress.getLocalHost().getHostAddress()+"\\D:\\RestAssuredAPI\\RestAssuredAPIFramework\\reports\\"+fileName;
+		} catch (UnknownHostException e1) {
+			// TODO Auto-generated catch block
+			e1.printStackTrace();
+		}
 		
 		MonitoringMail mail= new MonitoringMail();
 		try {
