@@ -1,4 +1,4 @@
-package com.InnovationCenter.PayPal.APIs;
+package com.InnovationCenter.PayPal.POJO;
 
 import java.util.ArrayList;
 

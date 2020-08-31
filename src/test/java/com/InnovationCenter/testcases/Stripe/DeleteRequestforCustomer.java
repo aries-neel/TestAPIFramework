@@ -1,4 +1,4 @@
-package com.InnovationCenter.testcases;
+package com.InnovationCenter.testcases.Stripe;
 
 import java.util.Hashtable;
 
@@ -6,9 +6,8 @@ import org.json.JSONObject;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-
-import com.InnovationCenter.APIs.DeleteCustomerAPI;
 import com.InnovationCenter.SetUp.BaseTest;
+import com.InnovationCenter.Stripe.APIs.DeleteCustomerAPI;
 import com.InnovationCenter.Utility.CommonDataProvider;
 
 import io.restassured.response.Response;

@@ -47,7 +47,7 @@ public class BaseTest {
 		}
 		
 		RestAssured.baseURI=prop.getProperty("baseUri");
-		RestAssured.basePath=prop.getProperty("basePath");
+		//RestAssured.basePath=prop.getProperty("basePath");
 		
 		
 		

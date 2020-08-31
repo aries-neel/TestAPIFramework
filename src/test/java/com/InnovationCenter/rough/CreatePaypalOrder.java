@@ -7,9 +7,9 @@ import java.util.ArrayList;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import com.InnovationCenter.PayPal.APIs.Amount;
-import com.InnovationCenter.PayPal.APIs.PayPal_Create_Order;
-import com.InnovationCenter.PayPal.APIs.PurchaseUnit;
+import com.InnovationCenter.PayPal.POJO.Amount;
+import com.InnovationCenter.PayPal.POJO.PayPal_Create_Order;
+import com.InnovationCenter.PayPal.POJO.PurchaseUnit;
 
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;

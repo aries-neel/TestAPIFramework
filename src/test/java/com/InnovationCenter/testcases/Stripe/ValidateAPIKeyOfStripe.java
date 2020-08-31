@@ -1,4 +1,4 @@
-package com.InnovationCenter.testcases;
+package com.InnovationCenter.testcases.Stripe;
 
 
 import java.util.Hashtable;
@@ -6,8 +6,8 @@ import java.util.Hashtable;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import com.InnovationCenter.APIs.CreateCustomerAPI;
 import com.InnovationCenter.SetUp.BaseTest;
+import com.InnovationCenter.Stripe.APIs.CreateCustomerAPI;
 import com.InnovationCenter.Utility.CommonDataProvider;
 
 import io.restassured.response.Response;

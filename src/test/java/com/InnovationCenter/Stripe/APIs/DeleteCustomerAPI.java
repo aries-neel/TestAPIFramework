@@ -1,4 +1,4 @@
-package com.InnovationCenter.APIs;
+package com.InnovationCenter.Stripe.APIs;
 
 import static io.restassured.RestAssured.given;
 
